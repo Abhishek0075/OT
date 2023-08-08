@@ -1,8 +1,6 @@
 import math
 import numpy as np
 
-
-
 def createTable(toBeMaximized,coefficents,solution):
     xb = [eq + [x] for eq,x in zip(coefficents,solution)]
     z = toBeMaximized + [0]
